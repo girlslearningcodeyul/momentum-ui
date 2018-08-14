@@ -1,0 +1,4 @@
+.listPeople, .listPlanets, .listStarships, .searchBar {
+  display: inline-block;
+  vertical-align: text-top;
+}
