@@ -24,7 +24,7 @@ class App extends Component {
   // }
 
   handlePeople = () => {
-    fetch('/searchPeople', { //need to have all results from 9 pages displayed?
+    fetch('/searchPeople', { 
       method: 'GET',
     })
       .then(response => response.text())
@@ -38,7 +38,7 @@ class App extends Component {
   }
 
   handlePlanets = () => {
-    fetch('/planets', { //need to have all results from 7 pages displayed?
+    fetch('/planets', { 
       method: 'GET',
     })
       .then(response => response.text())
@@ -50,7 +50,7 @@ class App extends Component {
   }
 
   handleStarships = () => {
-    fetch('/starships', { //need to have all results from 7 pages displayed?
+    fetch('/starships', { 
       method: 'GET',
     })
       .then(response => response.text())
@@ -111,7 +111,6 @@ class App extends Component {
             </li>
           ))}
         </div>
-
       </div>
     );
   }

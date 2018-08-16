@@ -1,3 +1,30 @@
+Context
+This is a technical aptitude test submitted on 16 of August, 2018. The requirements are to use the following as an online API: https://swapi.co/documentation. The API should be wrapped in a backend REST API client with the 4 endpoints required for the use cases. NodeJS runtime environment was used to perform this. The use cases are the following:
+- the user can view a list of people (for simplicity sake, the list of first ten people)
+- the user can view a list of planets (for simplicity sake, the list of first ten planets)
+- the user can view a list of starships (for simplicity sake, the list of first ten starships)
+- the user can search for a person 
+
+The following is the UI documentation, that works as a no-refresh, single-page application, using the ReactJS framework. For more documentation on specifics of the react-app, see below the conceptor documentation.
+
+Instructions
+Use :
+
+$ npm install
+to install the dependency
+
+$ npm start
+to host the app on http://localhost:3000
+
+The application is making a get request to the express server running on port 4000 and displays lists of names, planets and starships. A search input field fiters through available names and display results. Parsing the data and set state is done inside the fetch call.
+
+UX/CSS elements were ommited for this case. Only the functionality of the program was taken into considerations.
+
+THIS IS THE END OF THE CONCEPTOR DOCUMENTATION
+---------------------------------------------------------------
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
